@@ -1,7 +1,7 @@
-# edunet-project
+# edunet-foundation
 
-📄 Resume Ranking System
-🔹 Project Overview
+# 📄 Resume Ranking System
+# 🔹 Project Overview
 The Resume Ranking System is an AI-powered application that ranks resumes based on a given job description. It leverages BERT (MPNet) and T5 Transformers to calculate the relevance of each resume and provides ranked results to streamline the hiring process.
 
 # ✅ Features:
@@ -13,6 +13,7 @@ Provides ranked resumes based on cosine similarity or T5 scoring.
 Allows downloading ranked results in Excel format.
 
 # 🚀 Technologies Used
+
 Python 3.8+
 Streamlit (For UI)
 PyMuPDF (pymupdf) (For PDF text extraction)
@@ -27,11 +28,15 @@ git clone https://github.com/kADALIdurgasivasankarprasad/edunet-project.git
 cd edunet-project
 
 # 2️⃣ Create a Virtual Environment (Recommended)
+
 python -m venv venv  # For Windows/Linux
+
 source venv/bin/activate  # For Mac/Linux
+
 venv\Scripts\activate  # For Windows
 
 # 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 If you encounter an error with fitz, install PyMuPDF:
 
@@ -46,6 +51,7 @@ Once dependencies are installed, run the Streamlit app:
 streamlit run app.py
 
 # 🛠 How It Works
+
 1️⃣ Home Page: Explains the project purpose and features.
 2️⃣ Upload Resumes: Upload multiple PDF resumes.
 3️⃣ Enter Job Description: Input the job description for ranking.
